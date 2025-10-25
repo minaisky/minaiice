@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>尝试写一篇博客</title>
+      <link href="/2025/10/25/%E5%B0%9D%E8%AF%95%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2025/10/25/%E5%B0%9D%E8%AF%95%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><h2 id="写于成都"><a href="#写于成都" class="headerlink" title="写于成都"></a>写于成都</h2><p><img src="https://pic1.imgdb.cn/item/68fcd0143203f7be009ebe63.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> none </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="/2025/10/25/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2025/10/25/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>你好！这是一个博客测试页面</p><p>代码块测试</p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (<span class="number">1</span>)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">if</span> (MenuFlag == MenuMode) &#123; <span class="comment">//菜单模式</span></span><br><span class="line">    <span class="keyword">switch</span> (EncoderState) &#123;</span><br><span class="line">  <span class="keyword">case</span> PageDowm:</span><br><span class="line">    <span class="keyword">if</span> (CurrenMenu-&gt;next != <span class="literal">NULL</span>) CurrenMenu = CurrenMenu-&gt;next;</span><br><span class="line">    EncoderState = NoScroll;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> PageUp:</span><br><span class="line">    <span class="keyword">if</span> (CurrenMenu-&gt;prev != <span class="literal">NULL</span>) CurrenMenu = CurrenMenu-&gt;prev;</span><br><span class="line">    EncoderState = NoScroll;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> NoScroll:</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">switch</span> (KeyPressType) &#123;</span><br><span class="line">    <span class="keyword">case</span> KeyShortPress:</span><br><span class="line">      KeyPressType = KeyNoPress;</span><br><span class="line">      <span class="keyword">if</span> (CurrenMenu-&gt;child != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        CurrenMenu = CurrenMenu-&gt;child;</span><br><span class="line">        select = <span class="number">0</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">if</span> (CurrenMenu-&gt;Execute != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        MenuFlag = EditMode;</span><br><span class="line">        <span class="keyword">continue</span>; <span class="comment">//立即重新循环，防止画面抽搐</span></span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> KeyDoublePress:</span><br><span class="line">      <span class="keyword">if</span> (CurrenMenu-&gt;parent != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        CurrenMenu = CurrenMenu-&gt;parent;</span><br><span class="line">        select = <span class="number">0</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      KeyPressType = KeyNoPress;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  CurrenMenu-&gt;OLED_Display();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (MenuFlag == EditMode) &#123; <span class="comment">//编辑模式</span></span><br><span class="line">      CurrenMenu-&gt;Execute();</span><br><span class="line">  &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">/* USER CODE END WHILE */</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* USER CODE BEGIN 3 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> none </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>babababa</title>
+      <link href="/2025/10/24/babababa/"/>
+      <url>/2025/10/24/babababa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="阿巴阿巴阿巴"><a href="#阿巴阿巴阿巴" class="headerlink" title="阿巴阿巴阿巴"></a>阿巴阿巴阿巴</h1><h2 id="123456789"><a href="#123456789" class="headerlink" title="123456789"></a>123456789</h2><p>minainb</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2025/10/24/hellominai/"/>
+      <url>/2025/10/24/hellominai/</url>
+      
+        <content type="html"><![CDATA[<h1 id="你好！！"><a href="#你好！！" class="headerlink" title="你好！！"></a>你好！！</h1><h2 id="hello-Minai"><a href="#hello-Minai" class="headerlink" title="hello Minai!!"></a>hello Minai!!</h2><p>这是一个测试页面</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
