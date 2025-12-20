@@ -87,6 +87,8 @@
             
             <tag> 帮助 </tag>
             
+            <tag> private </tag>
+            
         </tags>
       
     </entry>
@@ -104,9 +106,9 @@
       
         <tags>
             
-            <tag> none </tag>
-            
             <tag> private </tag>
+            
+            <tag> none </tag>
             
         </tags>
       
